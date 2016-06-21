@@ -10,10 +10,7 @@ public class RvrseString {
 		System.out.println("Enter the String:");
 		real=s.nextLine();
 		StringBuffer sb=new StringBuffer(real);
-		
 		sb.reverse();
-		
-		
 	      System.out.println("Reverse of entered string is: "+sb);
 	}
 
