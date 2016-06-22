@@ -23,13 +23,13 @@ public class DeleteLeast {
 		   System.out.println("Enter how many numbers to remove:");
 		   Scanner n=new Scanner(System.in);
 			q=n.nextInt();
+			System.out.println("The result is:");
 			int res=temp.length()-q;
 			if(q<temp.length())
 			{
 			for(int i=0;i<res;i++)
 			{
 				System.out.print(+a[i]);
-				
 			}
 			}else
 			{
