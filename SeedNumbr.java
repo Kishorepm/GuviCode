@@ -26,8 +26,6 @@ public class SeedNumbr {
 			
 			result=result*a[i];
 		}
-		System.out.println("The seed number is:"+result);
-		System.out.println("The number is: " +cp );
 		int output;
 		output=cp*result;
 		System.out.println("The seed number is:"+output);
