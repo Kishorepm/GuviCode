@@ -12,6 +12,8 @@ public class RmvVowrev {
 		StringBuilder sb1 = new StringBuilder(real);
 	
 	  try{
+	  	for(int j=0;j<=sb1.length();j++)
+	  	{
 				for(int i=0;i<=real.length();i++)
 		
 			{
@@ -22,6 +24,7 @@ public class RmvVowrev {
 					
 				}
 			}
+	  	}
 	
 	  }catch(Exception e ){
 			System.out.println("After vowels removed the reversed string is :"+sb1);
