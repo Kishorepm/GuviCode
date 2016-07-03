@@ -29,8 +29,7 @@ public class RmvVowrev {
 	  }catch(Exception e ){
 			System.out.println("After vowels removed the reversed string is :"+sb1);
 	  }
-		StringBuffer sb=new StringBuffer(real);
-		sb.reverse();
+		sb1.reverse();
 	    System.out.println("Reverse of entered string is: "+sb1);
 	   
 		
