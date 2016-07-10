@@ -18,6 +18,6 @@ void thunai(int disk,char sou,char temp,char des)
         }
      }
 thunai(disk-1,sou,des,temp);
-printf("%d From %c to %c\n",disk,sou,des);
+printf("%d from %c to %c\n",disk,sou,des);
 thunai(disk-1,temp,sou,des);
 }
