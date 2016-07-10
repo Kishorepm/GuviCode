@@ -2,7 +2,7 @@
 void thunai(int disk,char sou,char temp,char des);
 int main()
 {
-    char sou='A',temp='B',des='C';
+    char sou='S',temp='D',des='A';
     int disk;
     printf("Enter number of disks");
     scanf("%d",&disk);
